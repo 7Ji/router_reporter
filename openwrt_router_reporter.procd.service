@@ -1,0 +1,10 @@
+#!/bin/sh /etc/rc.common
+START=99
+
+USE_PROCD=1
+start_service() {
+    procd_open_instance
+    procd_set_param command /usr/bin/router_reporter -iface [your interface, e.g. pppoe-wan] -listen [your listening host and port, e.g. 192.168.1.1:7777, or :7777]
+    procd_set_param respawn
+    procd_close_instance
+}
