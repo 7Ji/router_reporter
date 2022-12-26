@@ -1,6 +1,3 @@
-**ARCHIVED UNTIL I FINISH MY 2023 POST-GRADUATTE ADMISSION EXAM ON DEC 24TH AND 25TH  
-归档至23考研结束**
-
 Simple go program to be used on the router (mainly OpenWrt) to listen on a specific port and report the IP address on a specific interface to multiple clients in a set interval.  
 简单的用在路由器（主要是OpenWrt）上的用于在特定端口上监听并以恒定间隔向多个客户端广播的程序
 
